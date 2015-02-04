@@ -1,0 +1,250 @@
+{                                                               {
+  "nome": "SegmentoT",                                            "nome": "SegmentoT",
+  "campos": {                                                     "campos": {
+    "01.3T": {                                                      "01.3T": {
+      "nome": "controle_banco",                                       "nome": "controle_banco",
+      "posicao_inicio": 1,                                            "posicao_inicio": 1,
+      "posicao_fim": 3,                                               "posicao_fim": 3,
+      "formato": "num",                                               "formato": "num",
+      "default": 104                                                  "default": 104
+    },                                                              },
+
+    "02.3T": {                                                      "02.3T": {
+      "nome": "controle_lote",                                        "nome": "controle_lote",
+      "posicao_inicio": 4,                                            "posicao_inicio": 4,
+      "posicao_fim": 7,                                               "posicao_fim": 7,
+      "formato": "num"                                                "formato": "num"
+    },                                                              },
+
+    "03.3T": {                                                      "03.3T": {
+      "nome": "controle_registro",                                    "nome": "controle_registro",
+      "posicao_inicio": 8,                                            "posicao_inicio": 8,
+      "posicao_fim": 8,                                               "posicao_fim": 8,
+      "formato": "num",                                               "formato": "num",
+      "default": 3                                                    "default": 3
+    },                                                              },
+
+    "04.3T": {                                                      "04.3T": {
+      "nome": "servico_numero_registro",                              "nome": "servico_numero_registro",
+      "posicao_inicio": 9,                                            "posicao_inicio": 9,
+      "posicao_fim": 13,                                              "posicao_fim": 13,
+      "formato": "num"                                                "formato": "num"
+    },                                                              },
+
+    "05.3T": {                                                      "05.3T": {
+      "nome": "servico_segmento",                                     "nome": "servico_segmento",
+      "posicao_inicio": 14,                                           "posicao_inicio": 14,
+      "posicao_fim": 14,                                              "posicao_fim": 14,
+      "formato": "alfa",                                              "formato": "alfa",
+      "default": "T"                                                  "default": "T"
+    },                                                              },
+
+    "06.3T": {                                                      "06.3T": {
+      "nome": "cnab_exclusivo_campo06dot3T",                          "nome": "cnab_exclusivo_campo06dot3T",
+      "posicao_inicio": 15,                                           "posicao_inicio": 15,
+      "posicao_fim": 15,                                              "posicao_fim": 15,
+      "formato": "alfa",                                              "formato": "alfa",
+      "default": ""                                                   "default": ""
+    },                                                              },
+
+    "07.3T": {                                                      "07.3T": {
+      "nome": "servico_codigo_movimento",                             "nome": "servico_codigo_movimento",
+      "posicao_inicio": 16,                                           "posicao_inicio": 16,
+      "posicao_fim": 17,                                              "posicao_fim": 17,
+      "formato": "num"                                                "formato": "num"
+    },                                                              },
+
+    "08.3T": {                                                      "08.3T": {
+      "nome": "codigo_agencia_cod",                                   "nome": "codigo_agencia_cod",
+      "posicao_inicio": 18,                                           "posicao_inicio": 18,
+      "posicao_fim": 22,                                              "posicao_fim": 22,
+      "formato": "num",                                               "formato": "num",
+      "default": 0                                                    "default": 0
+    },                                                              },
+
+    "09.3T": {                                                      "09.3T": {
+      "nome": "codigo_agenvia_dv",                                    "nome": "codigo_agenvia_dv",
+      "posicao_inicio": 23,                                           "posicao_inicio": 23,
+      "posicao_fim": 23,                                              "posicao_fim": 23,
+      "formato": "num",                                               "formato": "num",
+      "default": 0                                                    "default": 0
+    },                                                              },
+
+    "10.3T": {                                                      "10.3T": {
+      "nome": "codigo_cedente",                                       "nome": "codigo_cedente",
+      "posicao_inicio": 24,                                           "posicao_inicio": 24,
+      "posicao_fim": 29,                                              "posicao_fim": 29,
+      "formato": "num"                                                "formato": "num"
+    },                                                              },
+
+    "11.3T": {                                                      "11.3T": {
+      "nome": "caixa_exclusivo_campo11dot3T",                         "nome": "caixa_exclusivo_campo11dot3T",
+      "posicao_inicio": 30,                                           "posicao_inicio": 30,
+      "posicao_fim": 32,                                              "posicao_fim": 32,
+      "formato": "num",                                               "formato": "num",
+      "default": 0                                                    "default": 0
+    },                                                              },
+
+    "11.3T2": {                                                     "11.3T2": {
+      "nome": "numero_banco_sacados",                                 "nome": "numero_banco_sacados",
+      "posicao_inicio": 33,                                           "posicao_inicio": 33,
+      "posicao_fim": 35,                                              "posicao_fim": 35,
+      "formato": "num"                                                "formato": "num"
+    },                                                              },
+
+    "12.3T": {                                                      "12.3T": {
+      "nome": "caixa_exclusivo_campo12dot3T",                         "nome": "caixa_exclusivo_campo12dot3T",
+      "posicao_inicio": 36,                                           "posicao_inicio": 36,
+      "posicao_fim": 39,                                              "posicao_fim": 39,
+      "formato": "num",                                               "formato": "num",
+      "default": 0                                                    "default": 0
+    },                                                              },
+
+    "13.3T": {                                                      "13.3T": {
+      "nome": "nosso_numero",                                         "nome": "nosso_numero",
+      "posicao_inicio": 40,                                           "posicao_inicio": 40,
+      "posicao_fim": 41,                                              "posicao_fim": 41,
+      "formato": "num"                                                "formato": "num"
+    },                                                              },
+
+    "13.3T2": {                                               |     "13.3T": {
+      "nome": "nosso_numero_identificacao",                           "nome": "nosso_numero_identificacao",
+      "posicao_inicio": 42,                                           "posicao_inicio": 42,
+      "posicao_fim": 56,                                              "posicao_fim": 56,
+      "formato": "num"                                                "formato": "num"
+    },                                                              },
+
+    "13.3T3": {                                                     "13.3T3": {
+      "nome": "caixa_exclusivo_campo13dot3T3",                        "nome": "caixa_exclusivo_campo13dot3T3",
+      "posicao_inicio": 57,                                           "posicao_inicio": 57,
+      "posicao_fim": 57,                                              "posicao_fim": 57,
+      "formato": "num",                                               "formato": "num",
+      "default": 0                                                    "default": 0
+    },                                                              },
+
+    "14.3T": {                                                      "14.3T": {
+      "nome": "carteira_cod",                                         "nome": "carteira_cod",
+      "posicao_inicio": 58,                                           "posicao_inicio": 58,
+      "posicao_fim": 58,                                              "posicao_fim": 58,
+      "formato": "num"                                                "formato": "num"
+    },                                                              },
+
+    "15.3T": {                                                      "15.3T": {
+      "nome": "numero_documento",                                     "nome": "numero_documento",
+      "posicao_inicio": 59,                                           "posicao_inicio": 59,
+      "posicao_fim": 69,                                              "posicao_fim": 69,
+      "formato": "num"                                        |       "formato": "alfa"
+    },                                                              },
+
+    "15.3T2": {                                                     "15.3T2": {
+      "nome": "caixa_exclusivo_campo15dot3T2",                        "nome": "caixa_exclusivo_campo15dot3T2",
+      "posicao_inicio": 70,                                           "posicao_inicio": 70,
+      "posicao_fim": 73,                                              "posicao_fim": 73,
+      "formato": "alfa",                                              "formato": "alfa",
+      "default": ""                                                   "default": ""
+    },                                                              },
+
+    "16.3T": {                                                      "16.3T": {
+      "nome": "vencimento_titulo",                                    "nome": "vencimento_titulo",
+      "posicao_inicio": 74,                                           "posicao_inicio": 74,
+      "posicao_fim": 81,                                              "posicao_fim": 81,
+      "formato": "num"                                                "formato": "num"
+    },                                                              },
+
+    "17.3T": {                                                      "17.3T": {
+      "nome": "valor_titulo",                                         "nome": "valor_titulo",
+      "posicao_inicio": 82,                                           "posicao_inicio": 82,
+      "posicao_fim": 96,                                              "posicao_fim": 96,
+      "formato": "num",                                               "formato": "num",
+      "decimais": 2                                                   "decimais": 2
+    },                                                              },
+
+    "18.3T": {                                                      "18.3T": {
+      "nome": "banco_cobrador_recebedor",                             "nome": "banco_cobrador_recebedor",
+      "posicao_inicio": 97,                                           "posicao_inicio": 97,
+      "posicao_fim": 99,                                              "posicao_fim": 99,
+      "formato": "num"                                                "formato": "num"
+    },                                                              },
+
+    "19.3T": {                                                      "19.3T": {
+      "nome": "agencia_cobradora_recebedora",                         "nome": "agencia_cobradora_recebedora",
+      "posicao_inicio": 100,                                          "posicao_inicio": 100,
+      "posicao_fim": 104,                                             "posicao_fim": 104,
+      "formato": "num"                                                "formato": "num"
+    },                                                              },
+
+    "20.3T": {                                                      "20.3T": {
+      "nome": "agencia_cobradora_recebedora_dv",                      "nome": "agencia_cobradora_recebedora_dv",
+      "posicao_inicio": 105,                                          "posicao_inicio": 105,
+      "posicao_fim": 105,                                             "posicao_fim": 105,
+      "formato": "num"                                                "formato": "num"
+    },                                                              },
+
+    "21.3T": {                                                      "21.3T": {
+      "nome": "uso_empresa",                                          "nome": "uso_empresa",
+      "posicao_inicio": 106,                                          "posicao_inicio": 106,
+      "posicao_fim": 130,                                             "posicao_fim": 130,
+      "formato": "alfa"                                               "formato": "alfa"
+    },                                                              },
+
+    "22.3T": {                                                      "22.3T": {
+      "nome": "codigo_moeda",                                         "nome": "codigo_moeda",
+      "posicao_inicio": 131,                                          "posicao_inicio": 131,
+      "posicao_fim": 312,                                     |       "posicao_fim": 132,
+      "formato": "num"                                                "formato": "num"
+    },                                                              },
+
+    "23.3T": {                                                      "23.3T": {
+      "nome": "sacado_inscricao_tipo",                                "nome": "sacado_inscricao_tipo",
+      "posicao_inicio": 133,                                          "posicao_inicio": 133,
+      "posicao_fim": 133,                                             "posicao_fim": 133,
+      "formato": "num"                                                "formato": "num"
+    },                                                              },
+
+    "24.3T": {                                                      "24.3T": {
+      "nome": "sacado_inscricao_numero",                              "nome": "sacado_inscricao_numero",
+      "posicao_inicio": 134,                                          "posicao_inicio": 134,
+      "posicao_fim": 148,                                             "posicao_fim": 148,
+      "formato": "num"                                                "formato": "num"
+    },                                                              },
+
+    "25.3T": {                                                      "25.3T": {
+      "nome": "sacado_nome",                                          "nome": "sacado_nome",
+      "posicao_inicio": 149,                                          "posicao_inicio": 149,
+      "posicao_fim": 188,                                             "posicao_fim": 188,
+      "formato": "alfa"                                               "formato": "alfa"
+    },                                                              },
+
+    "26.3T": {                                                      "26.3T": {
+      "nome": "cnab_exclusivo_campo26dot3T",                          "nome": "cnab_exclusivo_campo26dot3T",
+      "posicao_inicio": 189,                                          "posicao_inicio": 189,
+      "posicao_fim": 198,                                             "posicao_fim": 198,
+      "formato": "alfa",                                              "formato": "alfa",
+      "default": ""                                                   "default": ""
+    },                                                              },
+
+    "27.3T": {                                                      "27.3T": {
+      "nome": "valor_tarifas",                                        "nome": "valor_tarifas",
+      "posicao_inicio": 199,                                          "posicao_inicio": 199,
+      "posicao_fim": 213,                                             "posicao_fim": 213,
+      "formato": "num",                                               "formato": "num",
+      "decimais": 0                                                   "decimais": 0
+    },                                                              },
+
+    "28.3T": {                                                      "28.3T": {
+      "nome": "motivo_ocorrencia",                                    "nome": "motivo_ocorrencia",
+      "posicao_inicio": 214,                                          "posicao_inicio": 214,
+      "posicao_fim": 223,                                             "posicao_fim": 223,
+      "formato": "alfa"                                               "formato": "alfa"
+    },                                                              },
+
+    "29.3T": {                                                      "29.3T": {
+      "nome": "cnab_exclusivo_campo29dot3T",                          "nome": "cnab_exclusivo_campo29dot3T",
+      "posicao_inicio": 224,                                          "posicao_inicio": 224,
+      "posicao_fim": 240,                                             "posicao_fim": 240,
+      "formato": "alfa",                                              "formato": "alfa",
+      "default": ""                                                   "default": ""
+    }                                                               }
+
+  }                                                               }
+}                                                               }

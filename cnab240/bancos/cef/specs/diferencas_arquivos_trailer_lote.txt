@@ -1,0 +1,104 @@
+{                                                               {
+  "nome": "TrailerLoteCobranca",                                  "nome": "TrailerLoteCobranca",
+  "campos": {                                                     "campos": {
+    "01.5": {                                                       "01.5": {
+      "nome": "controle_banco",                                       "nome": "controle_banco",
+      "posicao_inicio": 1,                                            "posicao_inicio": 1,
+      "posicao_fim": 3,                                               "posicao_fim": 3,
+      "formato": "num",                                               "formato": "num",
+      "default": 104                                                  "default": 104
+    },                                                              },
+
+    "02.5": {                                                       "02.5": {
+      "nome": "controle_lote",                                        "nome": "controle_lote",
+      "posicao_inicio": 4,                                            "posicao_inicio": 4,
+      "posicao_fim": 7,                                               "posicao_fim": 7,
+      "formato": "num"                                                "formato": "num"
+    },                                                              },
+
+    "03.5": {                                                       "03.5": {
+      "nome": "controle_registro",                                    "nome": "controle_registro",
+      "posicao_inicio": 8,                                            "posicao_inicio": 8,
+      "posicao_fim": 8,                                               "posicao_fim": 8,
+      "formato": "num",                                               "formato": "num",
+      "default": 5                                                    "default": 5
+    },                                                              },
+
+    "04.5": {                                                       "04.5": {
+      "nome": "cnab_exclusivo_campo04dot5",                   |       "nome": "cnab_exclusivo_04dot5",
+      "posicao_inicio": 9,                                            "posicao_inicio": 9,
+      "posicao_fim": 17,                                              "posicao_fim": 17,
+      "formato": "alfa",                                              "formato": "alfa",
+      "default": ""                                                   "default": ""
+    },                                                              },
+
+    "05.5": {                                                       "05.5": {
+      "nome": "quantidade_registros",                                 "nome": "quantidade_registros",
+      "posicao_inicio": 18,                                           "posicao_inicio": 18,
+      "posicao_fim": 23,                                              "posicao_fim": 23,
+      "formato": "num"                                                "formato": "num"
+    },                                                              },
+
+    "06.5": {                                                       "06.5": {
+      "nome": "cobrancasimples_quantidade_titulos",                   "nome": "cobrancasimples_quantidade_titulos",
+      "posicao_inicio": 24,                                           "posicao_inicio": 24,
+      "posicao_fim": 29,                                              "posicao_fim": 29,
+      "formato": "num"                                                "formato": "num"
+    },                                                              },
+
+    "07.5": {                                                       "07.5": {
+      "nome": "cobrancasimples_valor_titulos",                        "nome": "cobrancasimples_valor_titulos",
+      "posicao_inicio": 30,                                           "posicao_inicio": 30,
+      "posicao_fim": 46,                                              "posicao_fim": 46,
+      "formato": "num",                                               "formato": "num",
+      "decimais": 2                                                   "decimais": 2
+    },                                                              },
+
+    "08.5": {                                                       "08.5": {
+      "nome": "cobrancaCaucionada_quantidade_titulos",                "nome": "cobrancaCaucionada_quantidade_titulos",
+      "posicao_inicio": 47,                                           "posicao_inicio": 47,
+      "posicao_fim": 52,                                              "posicao_fim": 52,
+      "formato": "num"                                        |       "formato": "alfa"
+    },                                                              },
+
+    "09.5": {                                                       "09.5": {
+      "nome": "cobrancaCaucionada_valor_titulos",                     "nome": "cobrancaCaucionada_valor_titulos",
+      "posicao_inicio": 53,                                           "posicao_inicio": 53,
+      "posicao_fim": 69,                                              "posicao_fim": 69,
+      "formato": "num",                                       |       "formato": "alfa"
+      "decimais": 2                                           <
+    },                                                              },
+
+    "10.5": {                                                       "10.5": {
+      "nome": "total_desc_titulosCobranca",                           "nome": "total_desc_titulosCobranca",
+      "posicao_inicio": 70,                                           "posicao_inicio": 70,
+      "posicao_fim": 75,                                              "posicao_fim": 75,
+      "formato": "num"                                                "formato": "num"
+    },                                                              },
+
+    "11.5": {                                                       "11.5": {
+      "nome": "total_desc_titulosCarteira",                           "nome": "total_desc_titulosCarteira",
+      "posicao_inicio": 76,                                           "posicao_inicio": 76,
+      "posicao_fim": 92,                                              "posicao_fim": 92,
+      "formato": "num",                                               "formato": "num",
+      "decimais": 2                                                   "decimais": 2
+    },                                                              },
+
+    "12.5": {                                                       "12.5": {
+      "nome": "FebrabanExclusivo_12dot5",                             "nome": "FebrabanExclusivo_12dot5",
+      "posicao_inicio": 93,                                           "posicao_inicio": 93,
+      "posicao_fim": 123,                                             "posicao_fim": 123,
+      "formato": "alfa",                                              "formato": "alfa",
+      "default": ""                                                   "default": ""
+    },                                                              },
+
+    "13.5": {                                                       "13.5": {
+      "nome": "FebrabanExclusivo_13dot5",                             "nome": "FebrabanExclusivo_13dot5",
+      "posicao_inicio": 124,                                          "posicao_inicio": 124,
+      "posicao_fim": 240,                                             "posicao_fim": 240,
+      "formato": "alfa",                                              "formato": "alfa",
+      "default": ""                                                   "default": ""
+    }                                                               }
+
+  }                                                               }
+}                                                               }
