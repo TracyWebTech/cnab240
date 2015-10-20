@@ -132,10 +132,14 @@ class Arquivo(object):
             now = datetime.now()
             self.header.arquivo_data_de_geracao = int(now.strftime("%d%m%Y"))
 
-        if self.header.arquivo_hora_de_geracao is None:
-            if now is None:
-                now = datetime.now()
-            self.header.arquivo_hora_de_geracao = int(now.strftime("%H%M%S"))
+        # necessario pois o santander nao tem hora de geracao
+        try:
+            if self.header.arquivo_hora_de_geracao is None:
+                if now is None:
+                    now = datetime.now()
+                self.header.arquivo_hora_de_geracao = int(now.strftime("%H%M%S"))
+        except AttributeError:
+            pass
 
     def carregar_retorno(self, arquivo):
         
